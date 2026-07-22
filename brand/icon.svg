@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#065f46"/>
+      <stop offset="1" stop-color="#052e16"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="230" fill="url(#bg)"/>
+  <!-- TallUp mark: two-tone arch — off-white + lime strokes sweeping into a single apex, stem below -->
+  <path d="M512 800 L512 560" fill="none" stroke="#a3e635" stroke-width="72" stroke-linecap="round"/>
+  <path d="M380 528 C 396 428 446 344 512 296" fill="none" stroke="#f0fdf4" stroke-width="72" stroke-linecap="round"/>
+  <path d="M644 528 C 628 428 578 344 512 296" fill="none" stroke="#a3e635" stroke-width="72" stroke-linecap="round"/>
+</svg>

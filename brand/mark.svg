@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 376 616">
+  <!-- TallUp monochrome mark (single color, transparent background, cropped to bounding box) -->
+  <g transform="translate(-324,-240)" fill="none" stroke="#052e16" stroke-width="72" stroke-linecap="round">
+    <path d="M512 800 L512 560"/>
+    <path d="M380 528 C 396 428 446 344 512 296"/>
+    <path d="M644 528 C 628 428 578 344 512 296"/>
+  </g>
+</svg>

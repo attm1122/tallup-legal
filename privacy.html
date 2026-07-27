@@ -3,142 +3,155 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>TallUp — Privacy Policy</title>
-<style>
-  :root { --emerald: #059669; --emerald-dark: #065f46; --ink: #111827; --muted: #6b7280; --line: #d1fae5; }
-  * { box-sizing: border-box; }
-  body { margin: 0; padding: 0; background: #ecfdf5; color: var(--ink);
-         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-         line-height: 1.65; font-size: 16px; }
-  .wrap { max-width: 640px; margin: 0 auto; padding: 32px 20px 64px; }
-  header { text-align: center; margin-bottom: 24px; }
-  header img { width: 72px; height: 72px; border-radius: 20px; box-shadow: 0 6px 20px rgba(6,78,59,.18); }
-  header .brand { display: block; margin-top: 10px; font-weight: 800; color: var(--emerald-dark); letter-spacing: .02em; }
-  .card { background: #fff; border-radius: 24px; padding: 28px 24px; box-shadow: 0 4px 24px rgba(6,78,59,.08); }
-  h1 { font-size: 26px; margin: 0 0 4px; }
-  .effective { color: var(--muted); font-size: 13px; margin: 0 0 20px; }
-  h2 { font-size: 18px; color: var(--emerald-dark); margin: 28px 0 8px; }
-  p { margin: 0 0 12px; }
-  ul { margin: 0 0 12px; padding-left: 22px; }
-  li { margin-bottom: 6px; }
-  .highlight { background: #ecfdf5; border: 1px solid var(--line); border-radius: 16px; padding: 14px 18px; margin: 16px 0; }
-  .highlight p { margin: 0; font-size: 14.5px; color: var(--emerald-dark); font-weight: 600; }
-  a { color: var(--emerald); font-weight: 600; }
-  footer { text-align: center; color: #9ca3af; font-size: 12.5px; margin-top: 24px; }
-</style>
+<title>Privacy Policy — TallUp</title>
+<meta name="description" content="TallUp Privacy Policy — local-first data storage, optional account, no ads, no tracking, no data sale." />
+<meta name="theme-color" content="#059669" />
+<meta property="og:title" content="Privacy Policy — TallUp" />
+<meta property="og:description" content="TallUp Privacy Policy — local-first data storage, optional account, no ads, no tracking, no data sale." />
+<meta property="og:image" content="https://tallup.app/brand/lockup.svg" />
+<meta property="og:url" content="https://tallup.app/privacy" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Privacy Policy — TallUp" />
+<meta name="twitter:description" content="TallUp Privacy Policy — local-first, no ads, no tracking." />
+<meta name="twitter:image" content="https://tallup.app/brand/lockup.svg" />
+<link rel="canonical" href="https://tallup.app/privacy" />
+<link rel="icon" href="brand/icon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="assets/site.css" />
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <img src="/brand/icon.svg" alt="TallUp logo" />
-    <span class="brand">TallUp — Reach your tallest self</span>
-  </header>
-  <div class="card">
-    <h1>Privacy Policy</h1>
-    <p class="effective">Effective date: July 22, 2026</p>
-
-    <div class="highlight">
-      <p>The short version: TallUp is local-first. Your data lives on your device, an account is optional,
-      we run no ads and no analytics trackers, and we never sell your data.</p>
-    </div>
-
-    <h2>1. What TallUp is</h2>
-    <p>TallUp is a fitness and habit app that combines guided stretching, posture work, nutrition and sleep
-    tracking, and an adult-height prediction estimate. It is general fitness software — not a medical
-    device and not medical advice.</p>
-
-    <h2>2. Data stored on your device (local-first)</h2>
-    <p>By default, everything you enter stays on your device in the app's local storage and never leaves it:</p>
-    <ul>
-      <li>Profile details: gender, age group, birthdate, current and target height</li>
-      <li>Parents' heights and self-reported puberty stage (used only for the height prediction)</li>
-      <li>Workout completions, streaks, and achievements</li>
-      <li>Height check-ins, sleep logs, food and water logs</li>
-      <li>Settings such as reminders, coach voice, and sleep target</li>
-    </ul>
-    <p>You can erase all of it at any time with <strong>Settings → Reset profile &amp; progress</strong>, or by
-    uninstalling the app.</p>
-
-    <h2>3. Optional account (email)</h2>
-    <p>Creating an account is entirely optional — every feature works without one. If you choose to create an
-    account (to back up and sync your progress across devices), we collect:</p>
-    <ul>
-      <li>Your <strong>email address</strong> (used for sign-in, confirmation, password recovery, and
-      transactional emails such as a welcome message and purchase receipt)</li>
-      <li>A <strong>copy of the progress data listed above</strong>, stored in our Supabase-hosted database
-      (Postgres with row-level security) and tied to your account id so it can sync to your other devices</li>
-    </ul>
-    <p>We do not collect your name, contacts, precise location, photos, or device advertising identifiers.</p>
-
-    <h2>4. Health-adjacent data</h2>
-    <p>Height, birthdate, parents' heights, puberty stage, sleep, and nutrition logs are health-adjacent.
-    We treat them with extra care: they are used only to power features you see in the app (your plan,
-    predictions, and charts), they are never used for advertising, and they are never shared with or sold to
-    third parties. Without an account they never leave your device.</p>
-
-    <h2>5. Purchases (RevenueCat and the app stores)</h2>
-    <p>TallUp Premium subscriptions and lifetime purchases are processed by the Apple App Store or Google
-    Play. We never see or store your payment card details. We use RevenueCat to manage subscription status;
-    RevenueCat processes purchase and entitlement information tied to an anonymous app-user id (and your
-    account id if you sign in) solely to unlock Premium features. No purchase data is used for advertising.</p>
-
-    <h2>6. No ads, no tracking, no data sale</h2>
-    <ul>
-      <li>No third-party advertising SDKs</li>
-      <li>No analytics or behavioral tracking SDKs</li>
-      <li>No "tracking" as defined by Apple's App Tracking Transparency — we do not link your data with
-      third-party data for advertising, and we do not share it with data brokers</li>
-      <li>We never sell your personal data</li>
-    </ul>
-
-    <h2>7. Children's privacy (COPPA) — 13+</h2>
-    <p>TallUp is designed for users aged <strong>13 and older</strong>. We do not knowingly collect personal
-    information from children under 13. During onboarding, a birthdate indicating an age under 13 blocks
-    profile creation entirely. If you believe a child under 13 has provided us personal information, contact
-    us and we will delete it promptly.</p>
-
-    <h2>8. Data retention and deletion</h2>
-    <ul>
-      <li><strong>Local data:</strong> deleted instantly via Settings → Reset profile &amp; progress, or by
-      uninstalling the app.</li>
-      <li><strong>Account data:</strong> delete your account any time in the app via
-      <strong>Settings → your account → Delete account</strong>. This permanently erases your account, your
-      email, and all cloud-stored progress. You can also request deletion by email — see
-      <a href="/delete-account.html">How to delete your account</a>.</li>
-      <li><strong>Purchase records:</strong> retained by the app stores and RevenueCat as required for
-      receipts, refunds, and tax/legal obligations; deleting your TallUp account does not delete the store's
-      own transaction records.</li>
-    </ul>
-
-    <h2>9. Service providers</h2>
-    <p>We use a small number of processors to operate the optional features above:</p>
-    <ul>
-      <li><strong>Supabase</strong> — account authentication and cloud progress storage</li>
-      <li><strong>Resend</strong> — transactional email delivery (confirmation, welcome, receipt)</li>
-      <li><strong>RevenueCat</strong> — subscription and entitlement management</li>
-      <li><strong>Apple / Google</strong> — payment processing and app distribution</li>
-    </ul>
-    <p>Each processes only the data needed to provide its service, under its own privacy policy.</p>
-
-    <h2>10. Security</h2>
-    <p>All network traffic uses HTTPS/TLS. Cloud data is protected by row-level security so only you can read
-    or write your own progress row. No system is perfectly secure, but we follow least-data principles: the
-    less we collect, the less there is to protect.</p>
-
-    <h2>11. International users</h2>
-    <p>If you use the optional account features, your data may be processed in the region where our database
-    is hosted. By creating an account you consent to that processing. Depending on your jurisdiction (e.g.
-    GDPR/UK GDPR, CCPA), you may have rights to access, correct, export, or delete your personal data — the
-    in-app tools above cover access and deletion, and you can contact us for anything else.</p>
-
-    <h2>12. Changes to this policy</h2>
-    <p>If we change this policy we will update the effective date above and, for material changes, announce
-    them in the app. The current version is always available at this URL and from within the app.</p>
-
-    <h2>13. Contact</h2>
-    <p>Questions or privacy requests: <a href="mailto:privacy@tallup.app">privacy@tallup.app</a></p>
+<nav class="nav"><div class="nav-inner">
+  <a class="nav-brand" href="index.html"><img src="brand/icon.svg" alt="TallUp logo" /><span>TallUp</span></a>
+  <div class="nav-links">
+    <a href="features.html">Features</a>
+    <a href="support.html">Support</a>
+    <a class="active" href="privacy.html">Privacy</a>
+    <a class="nav-cta" href="index.html#download">Get the app</a>
   </div>
-  <footer>TallUp · Stretching, posture, nutrition and sleep habits — not medical advice.</footer>
+</div></nav>
+
+<main class="section"><div class="wrap-narrow prose">
+  <h1>Privacy Policy</h1>
+  <p class="updated">Effective date: July 22, 2026</p>
+
+  <div style="background:#ecfdf5;border:1px solid #d1fae5;border-radius:16px;padding:14px 18px;margin:16px 0;">
+    <p style="margin:0;font-weight:600;">The short version: TallUp is local-first. Your data lives on your device, an account is optional,
+    we run no ads and no analytics trackers, and we never sell your data.</p>
+  </div>
+
+  <h2>1. What TallUp is</h2>
+  <p>TallUp is a fitness and habit app that combines guided stretching, posture work, nutrition and sleep
+  tracking, and an adult-height prediction estimate. It is general fitness software — not a medical
+  device and not medical advice.</p>
+
+  <h2>2. Data stored on your device (local-first)</h2>
+  <p>By default, everything you enter stays on your device in the app's local storage and never leaves it:</p>
+  <ul>
+    <li>Profile details: gender, age group, birthdate, current and target height</li>
+    <li>Parents' heights and self-reported puberty stage (used only for the height prediction)</li>
+    <li>Workout completions, streaks, and achievements</li>
+    <li>Height check-ins, sleep logs, food and water logs</li>
+    <li>Settings such as reminders, coach voice, and sleep target</li>
+  </ul>
+  <p>You can erase all of it at any time with <strong>Settings → Reset profile &amp; progress</strong>, or by
+  uninstalling the app.</p>
+
+  <h2>3. Optional account (email)</h2>
+  <p>Creating an account is entirely optional — every feature works without one. If you choose to create an
+  account (to back up and sync your progress across devices), we collect:</p>
+  <ul>
+    <li>Your <strong>email address</strong> (used for sign-in, confirmation, password recovery, and
+    transactional emails such as a welcome message and purchase receipt)</li>
+    <li>A <strong>copy of the progress data listed above</strong>, stored in our Supabase-hosted database
+    (Postgres with row-level security) and tied to your account id so it can sync to your other devices</li>
+  </ul>
+  <p>We do not collect your name, contacts, precise location, photos, or device advertising identifiers.</p>
+
+  <h2>4. Health-adjacent data</h2>
+  <p>Height, birthdate, parents' heights, puberty stage, sleep, and nutrition logs are health-adjacent.
+  We treat them with extra care: they are used only to power features you see in the app (your plan,
+  predictions, and charts), they are never used for advertising, and they are never shared with or sold to
+  third parties. Without an account they never leave your device.</p>
+
+  <h2>5. Purchases (RevenueCat and the app stores)</h2>
+  <p>TallUp Premium subscriptions and lifetime purchases are processed by the Apple App Store or Google
+  Play. We never see or store your payment card details. We use RevenueCat to manage subscription status;
+  RevenueCat processes purchase and entitlement information tied to an anonymous app-user id (and your
+  account id if you sign in) solely to unlock Premium features. No purchase data is used for advertising.</p>
+
+  <h2>6. No ads, no tracking, no data sale</h2>
+  <ul>
+    <li>No third-party advertising SDKs</li>
+    <li>No analytics or behavioral tracking SDKs</li>
+    <li>No "tracking" as defined by Apple's App Tracking Transparency — we do not link your data with
+    third-party data for advertising, and we do not share it with data brokers</li>
+    <li>We never sell your personal data</li>
+  </ul>
+
+  <h2>7. Children's privacy (COPPA) — 13+</h2>
+  <p>TallUp is designed for users aged <strong>13 and older</strong>. We do not knowingly collect personal
+  information from children under 13. During onboarding, a birthdate indicating an age under 13 blocks
+  profile creation entirely. If you believe a child under 13 has provided us personal information, contact
+  us and we will delete it promptly.</p>
+
+  <h2>8. Data retention and deletion</h2>
+  <ul>
+    <li><strong>Local data:</strong> deleted instantly via Settings → Reset profile &amp; progress, or by
+    uninstalling the app.</li>
+    <li><strong>Account data:</strong> delete your account any time in the app via
+    <strong>Settings → your account → Delete account</strong>. This permanently erases your account, your
+    email, and all cloud-stored progress. You can also request deletion by email — see
+    <a href="delete-account.html">How to delete your account</a>.</li>
+    <li><strong>Purchase records:</strong> retained by the app stores and RevenueCat as required for
+    receipts, refunds, and tax/legal obligations; deleting your TallUp account does not delete the store's
+    own transaction records.</li>
+  </ul>
+
+  <h2>9. Service providers</h2>
+  <p>We use a small number of processors to operate the optional features above:</p>
+  <ul>
+    <li><strong>Supabase</strong> — account authentication and cloud progress storage</li>
+    <li><strong>Resend</strong> — transactional email delivery (confirmation, welcome, receipt)</li>
+    <li><strong>RevenueCat</strong> — subscription and entitlement management</li>
+    <li><strong>Apple / Google</strong> — payment processing and app distribution</li>
+  </ul>
+  <p>Each processes only the data needed to provide its service, under its own privacy policy.</p>
+
+  <h2>10. Security</h2>
+  <p>All network traffic uses HTTPS/TLS. Cloud data is protected by row-level security so only you can read
+  or write your own progress row. No system is perfectly secure, but we follow least-data principles: the
+  less we collect, the less there is to protect.</p>
+
+  <h2>11. International users</h2>
+  <p>If you use the optional account features, your data may be processed in the region where our database
+  is hosted. By creating an account you consent to that processing. Depending on your jurisdiction (e.g.
+  GDPR/UK GDPR, CCPA), you may have rights to access, correct, export, or delete your personal data — the
+  in-app tools above cover access and deletion, and you can contact us for anything else.</p>
+
+  <h2>12. Changes to this policy</h2>
+  <p>If we change this policy we will update the effective date above and, for material changes, announce
+  them in the app. The current version is always available at this URL and from within the app.</p>
+
+  <h2>13. Contact</h2>
+  <p>Questions or privacy requests: <a href="mailto:privacy@tallup.app">privacy@tallup.app</a></p>
+</div></main>
+
+<footer class="site-footer"><div class="wrap"><div class="cols">
+  <div>
+    <div class="footer-brand"><img src="brand/icon.svg" alt="" /><span>TallUp</span></div>
+    <p style="max-width:260px;font-size:14px;margin:0;">Stand taller every day — guided stretching, posture, sleep and nutrition habits. Not medical advice.</p>
+  </div>
+  <div><h4>App</h4>
+    <a href="features.html">Features</a>
+    <a href="index.html#premium">Premium</a>
+    <a href="support.html">Support</a>
+  </div>
+  <div><h4>Legal</h4>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Use</a>
+    <a href="delete-account.html">Delete Account</a>
+  </div>
 </div>
-</body>
-</html>
+<p class="fine">© 2026 TallUp · hello@auth.tallup.app · Estimates only, based on population growth statistics — not medical advice.</p>
+</div></footer>
+</body></html>

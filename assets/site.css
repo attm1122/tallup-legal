@@ -141,6 +141,22 @@ a:hover { color: var(--emerald-700); }
   content: '';
   position: absolute; inset: 0;
   background:
+    radial-gradient(ellipse 70% 50% at 15% 30%, rgba(16,185,129,0.22) 0%, transparent 55%),
+    radial-gradient(ellipse 60% 45% at 85% 25%, rgba(45,212,191,0.14) 0%, transparent 50%),
+    radial-gradient(ellipse 55% 55% at 50% 85%, rgba(139,92,246,0.10) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 40% at 70% 60%, rgba(16,185,129,0.08) 0%, transparent 45%);
+  pointer-events: none;
+  animation: heroAurora 10s ease-in-out infinite alternate;
+}
+@keyframes heroAurora {
+  0% { opacity: 1; transform: scale(1) translate(0,0); }
+  33% { opacity: 0.85; transform: scale(1.04) translate(-1%,1%); }
+  66% { opacity: 0.9; transform: scale(1.02) translate(1%,-1%); }
+  100% { opacity: 1; transform: scale(1.06) translate(0,0); }
+}
+  content: '';
+  position: absolute; inset: 0;
+  background:
     radial-gradient(ellipse 80% 60% at 20% 40%, rgba(16,185,129,0.15) 0%, transparent 60%),
     radial-gradient(ellipse 60% 50% at 80% 20%, rgba(6,182,212,0.10) 0%, transparent 50%),
     radial-gradient(ellipse 70% 70% at 50% 100%, rgba(5,150,105,0.12) 0%, transparent 50%);
@@ -169,6 +185,9 @@ a:hover { color: var(--emerald-700); }
   max-width: 720px;
 }
 .hero-dark h1 .accent {
+  color: #5eead4;
+  text-shadow: 0 0 30px rgba(94,234,212,0.35), 0 0 60px rgba(94,234,212,0.15);
+}
   background: linear-gradient(135deg, var(--emerald-400), var(--emerald-300), #2dd4bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -320,6 +339,11 @@ a:hover { color: var(--emerald-700); }
 /* ---------- Stats ---------- */
 .stats { display: flex; justify-content: center; gap: 56px; flex-wrap: wrap; text-align: center; margin: 24px 0 0; }
 .stat .num {
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 800;
+  color: var(--emerald-600);
+  line-height: 1.1;
+}
   font-size: clamp(32px, 4vw, 48px);
   font-weight: 800;
   background: linear-gradient(135deg, var(--emerald-600), var(--emerald-400));
@@ -482,6 +506,14 @@ a:hover { color: var(--emerald-700); }
 .price-card h3 { margin: 0 0 6px; font-size: 19px; font-weight: 800; }
 .price-card .price {
   font-size: 44px; font-weight: 800;
+  color: var(--emerald-600);
+  margin: 10px 0 4px;
+  line-height: 1.1;
+}
+.price-card.featured .price {
+  color: var(--emerald-300);
+}
+  font-size: 44px; font-weight: 800;
   background: linear-gradient(135deg, var(--emerald-600), var(--emerald-400));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -582,6 +614,9 @@ details.faq[open] { box-shadow: var(--shadow-md); border-color: rgba(16,185,129,
   letter-spacing: var(--letter-tight);
 }
 .cta-banner h2 .accent {
+  color: #5eead4;
+  text-shadow: 0 0 30px rgba(94,234,212,0.35), 0 0 60px rgba(94,234,212,0.15);
+}
   background: linear-gradient(135deg, var(--emerald-300), var(--emerald-400));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

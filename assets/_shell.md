@@ -1,4 +1,4 @@
-# TallUp site — shared page shell (use verbatim on every page)
+# Altura site — shared page shell (use verbatim on every page)
 
 Every page is a self-contained HTML file that links ONE stylesheet:
 `<link rel="stylesheet" href="assets/site.css" />` (already written — do NOT modify it).
@@ -11,7 +11,7 @@ Use this exact head block (change only title/description):
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>PAGE TITLE — TallUp</title>
+<title>PAGE TITLE — Altura</title>
 <meta name="description" content="PAGE DESCRIPTION" />
 <link rel="icon" href="brand/icon.svg" type="image/svg+xml" />
 <link rel="stylesheet" href="assets/site.css" />
@@ -23,7 +23,7 @@ Nav (set class="active" on the current page's link; omit `active` elsewhere):
 
 ```html
 <nav class="nav"><div class="nav-inner">
-  <a class="nav-brand" href="index.html"><img src="brand/icon.svg" alt="TallUp logo" /><span>TallUp</span></a>
+  <a class="nav-brand" href="index.html"><img src="brand/icon.svg" alt="Altura logo" /><span>Altura</span></a>
   <div class="nav-links">
     <a href="features.html">Features</a>
     <a href="support.html">Support</a>
@@ -38,7 +38,7 @@ Footer (identical on every page):
 ```html
 <footer class="site-footer"><div class="wrap"><div class="cols">
   <div>
-    <div class="footer-brand"><img src="brand/icon.svg" alt="" /><span>TallUp</span></div>
+    <div class="footer-brand"><img src="brand/icon.svg" alt="" /><span>Altura</span></div>
     <p style="max-width:260px;font-size:14px;margin:0;">Stand taller every day — guided stretching, posture, sleep and nutrition habits. Not medical advice.</p>
   </div>
   <div><h4>App</h4>
@@ -52,7 +52,7 @@ Footer (identical on every page):
     <a href="delete-account.html">Delete Account</a>
   </div>
 </div>
-<p class="fine">© 2026 TallUp · hello@auth.tallup.app · Estimates only, based on population growth statistics — not medical advice.</p>
+<p class="fine">© 2026 Altura · hello@auth.tallup.app · Estimates only, based on population growth statistics — not medical advice.</p>
 </div></footer>
 </body></html>
 ```
@@ -70,7 +70,7 @@ Footer (identical on every page):
 - `screenshots/09-onboarding-prediction.png` — adult-height prediction result
 
 ## Copy rules (mandatory)
-- Product: TallUp — daily stretching/posture habit app for teens & young adults (13+).
+- Product: Altura — daily stretching/posture habit app for teens & young adults (13+).
 - Core loop: 30-day plan, one guided workout/day (~10 min), 12 spine-friendly exercises, 3 difficulty levels, custom workouts, streaks.
 - Prediction: personal adult-height estimate from age/height/parents' heights; ALWAYS pair with "Estimates only, based on population growth statistics — not medical advice."
 - Tracking: sleep logging (8–10h goal), daily meal ideas (protein, calcium, vitamin D, zinc, magnesium), height check-ins with trend chart, achievements.

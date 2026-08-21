@@ -6,8 +6,9 @@
     </linearGradient>
   </defs>
   <rect width="1024" height="1024" rx="230" fill="url(#bg)"/>
-  <!-- TallUp mark: two-tone arch — off-white + lime strokes sweeping into a single apex, stem below -->
-  <path d="M512 800 L512 560" fill="none" stroke="#a3e635" stroke-width="72" stroke-linecap="round"/>
-  <path d="M380 528 C 396 428 446 344 512 296" fill="none" stroke="#f0fdf4" stroke-width="72" stroke-linecap="round"/>
-  <path d="M644 528 C 628 428 578 344 512 296" fill="none" stroke="#a3e635" stroke-width="72" stroke-linecap="round"/>
+  <!-- Altura mark: A-summit — geometric A whose crossbar is a rising arrow -->
+  <path d="M300 780 L512 260" fill="none" stroke="#f0fdf4" stroke-width="76" stroke-linecap="round"/>
+  <path d="M724 780 L512 260" fill="none" stroke="#a3e635" stroke-width="76" stroke-linecap="round"/>
+  <path d="M390 560 L602 480" fill="none" stroke="#a3e635" stroke-width="56" stroke-linecap="round"/>
+  <path d="M561 529 L602 480 L539 470" fill="none" stroke="#a3e635" stroke-width="56" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

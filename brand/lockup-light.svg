@@ -8,9 +8,10 @@
   <!-- horizontal lockup for dark/colored surfaces (white wordmark) -->
   <rect x="55" y="55" width="390" height="390" rx="88" fill="url(#chip)"/>
   <g transform="translate(55,55) scale(0.3809)">
-    <path d="M512 800 L512 560" fill="none" stroke="#a3e635" stroke-width="72" stroke-linecap="round"/>
-    <path d="M380 528 C 396 428 446 344 512 296" fill="none" stroke="#f0fdf4" stroke-width="72" stroke-linecap="round"/>
-    <path d="M644 528 C 628 428 578 344 512 296" fill="none" stroke="#a3e635" stroke-width="72" stroke-linecap="round"/>
+    <path d="M300 780 L512 260" fill="none" stroke="#f0fdf4" stroke-width="76" stroke-linecap="round"/>
+    <path d="M724 780 L512 260" fill="none" stroke="#a3e635" stroke-width="76" stroke-linecap="round"/>
+    <path d="M390 560 L602 480" fill="none" stroke="#a3e635" stroke-width="56" stroke-linecap="round"/>
+    <path d="M561 529 L602 480 L539 470" fill="none" stroke="#a3e635" stroke-width="56" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
-  <text x="520" y="318" font-family="Helvetica Neue, Arial, sans-serif" font-weight="800" font-size="178" letter-spacing="-6"><tspan fill="#ffffff">Tall</tspan><tspan fill="#bef264">Up</tspan></text>
+  <text x="520" y="318" font-family="Helvetica Neue, Arial, sans-serif" font-weight="800" font-size="178" letter-spacing="-6"><tspan fill="#ffffff">Alt</tspan><tspan fill="#bef264">ura</tspan></text>
 </svg>
